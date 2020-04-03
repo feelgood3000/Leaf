@@ -10,7 +10,7 @@ PROJ_TARGET_JAR=${PROJ_DIR}/leaf.jar
 JAVA_CMD=java
 JVM_ARGS="-jar"
 
-CMD="${JAVA_CMD} ${JVM_ARGS}  ${PROJ_TARGET_JAR}"
+CMD="${JAVA_CMD} -jar -Xmx400m ${JVM_ARGS}  ${PROJ_TARGET_JAR}"
 echo "Leaf Start--------------"
 echo "JVM ARGS   ${JVM_ARGS}"
 echo "->"
